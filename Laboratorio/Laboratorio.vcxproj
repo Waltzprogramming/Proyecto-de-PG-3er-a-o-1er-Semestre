@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>18.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{69c35ae5-4d85-4cc4-bcbe-2faa05abbaf5}</ProjectGuid>
+    <RootNamespace>Laboratorio</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(ProjectDir)include;C:\Users\Holman\source\repos\Laboratorio\External\STB;C:\Users\Holman\vcpkg\installed\x64-windows\include;C:\Users\Holman\source\repos\Laboratorio\External\GLEW\include;C:\Users\Holman\source\repos\Laboratorio\External\GLFW\include;C:\Users\Holman\source\repos\Laboratorio\External\GLM;C:\Users\Holman\source\repos\Laboratorio\External\SOIL2-master\src\SOIL2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\Holman\source\repos\Laboratorio\External\SFML-3.0.2\lib;C:\Users\Holman\source\repos\Laboratorio\External\GLEW\lib;C:\Users\Holman\source\repos\Laboratorio\External\SOIL2-master\lib\windows;C:\Users\Holman\source\repos\Laboratorio\External\GLFW\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw3_mt.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Manifest>
+      <EnableSegmentHeap>true</EnableSegmentHeap>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(ProjectDir)include;C:\Users\Holman\source\repos\Laboratorio\External\STB;C:\Users\Holman\vcpkg\installed\x64-windows\include;C:\Users\Holman\source\repos\Laboratorio\External\GLEW\include;C:\Users\Holman\source\repos\Laboratorio\External\GLFW\include;C:\Users\Holman\source\repos\Laboratorio\External\GLM;C:\Users\Holman\source\repos\Laboratorio\External\SOIL2-master\src\SOIL2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\Holman\source\repos\Laboratorio\External\SFML-3.0.2\lib;C:\Users\Holman\source\repos\Laboratorio\External\GLEW\lib;C:\Users\Holman\source\repos\Laboratorio\External\SOIL2-master\lib\windows;C:\Users\Holman\source\repos\Laboratorio\External\GLFW\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw3_mt.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Manifest>
+      <EnableSegmentHeap>true</EnableSegmentHeap>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(ProjectDir)include;C:\Users\Holman\source\repos\Laboratorio\External\STB;C:\Users\Holman\vcpkg\installed\x64-windows\include;C:\Users\Holman\source\repos\Laboratorio\External\GLEW\include;C:\Users\Holman\source\repos\Laboratorio\External\GLFW\include;C:\Users\Holman\source\repos\Laboratorio\External\GLM;C:\Users\Holman\source\repos\Laboratorio\External\SOIL2-master\src\SOIL2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\Holman\source\repos\Laboratorio\External\GLEW\lib\Release\x64;C:\Users\Holman\source\repos\Laboratorio\External\GLFW\lib-vc2022;C:\Users\Holman\vcpkg\installed\x64-windows\debug\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw3_mt.lib;glew32s.lib;assimp-vc143-mtd.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Manifest>
+      <EnableSegmentHeap>true</EnableSegmentHeap>
+    </Manifest>
+    <PostBuildEvent>
+      <Command>copy /Y "C:\Users\Holman\vcpkg\installed\x64-windows\debug\bin\assimp-vc143-mtd.dll" "$(OutDir)"
+copy /Y "C:\Users\Holman\vcpkg\installed\x64-windows\debug\bin\poly2tri.dll" "$(OutDir)"
+copy /Y "C:\Users\Holman\vcpkg\installed\x64-windows\debug\bin\minizip.dll" "$(OutDir)"
+copy /Y "C:\Users\Holman\vcpkg\installed\x64-windows\debug\bin\zd.dll" "$(OutDir)"
+copy /Y "C:\Users\Holman\vcpkg\installed\x64-windows\debug\bin\kubazip.dll" "$(OutDir)"
+copy /Y "C:\Users\Holman\vcpkg\installed\x64-windows\debug\bin\pugixml.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <AdditionalIncludeDirectories>$(ProjectDir)include;C:\Users\Holman\source\repos\Laboratorio\External\STB;C:\Users\Holman\vcpkg\installed\x64-windows\include;C:\Users\Holman\source\repos\Laboratorio\External\GLEW\include;C:\Users\Holman\source\repos\Laboratorio\External\GLFW\include;C:\Users\Holman\source\repos\Laboratorio\External\GLM;C:\Users\Holman\source\repos\Laboratorio\External\SOIL2-master\src\SOIL2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\Holman\source\repos\Laboratorio\External\GLEW\lib\Release\x64;C:\Users\Holman\source\repos\Laboratorio\External\GLFW\lib-vc2022;C:\Users\Holman\vcpkg\installed\x64-windows\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opengl32.lib;glfw3_mt.lib;glew32s.lib;assimp-vc143-mt.lib;winmm.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <Manifest>
+      <EnableSegmentHeap>true</EnableSegmentHeap>
+    </Manifest>
+    <PostBuildEvent>
+      <Command>copy /Y "C:\Users\Holman\vcpkg\installed\x64-windows\bin\assimp-vc143-mt.dll" "$(OutDir)"
+copy /Y "C:\Users\Holman\vcpkg\installed\x64-windows\bin\poly2tri.dll" "$(OutDir)"
+copy /Y "C:\Users\Holman\vcpkg\installed\x64-windows\bin\minizip.dll" "$(OutDir)"
+copy /Y "C:\Users\Holman\vcpkg\installed\x64-windows\bin\z.dll" "$(OutDir)"
+copy /Y "C:\Users\Holman\vcpkg\installed\x64-windows\bin\kubazip.dll" "$(OutDir)"
+copy /Y "C:\Users\Holman\vcpkg\installed\x64-windows\bin\pugixml.dll" "$(OutDir)"</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\AudioPlayer.cpp" />
+    <ClCompile Include="src\Camera.cpp" />
+    <ClCompile Include="src\Environment.cpp" />
+    <ClCompile Include="src\Mesh.cpp" />
+    <ClCompile Include="src\ModelLoader.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\Shader.cpp" />
+    <ClCompile Include="src\Texture2D.cpp" />
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\AudioPlayer.h" />
+    <ClInclude Include="include\Camera.h" />
+    <ClInclude Include="include\Environment.h" />
+    <ClInclude Include="include\Mesh.h" />
+    <ClInclude Include="include\ModelLoader.h" />
+    <ClInclude Include="include\Player.h" />
+    <ClInclude Include="include\Shader.h" />
+    <ClInclude Include="include\Texture2D.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\audio\graffiti_underground_loop.mp3" />
+    <None Include="assets\characters\mario64_pinix_style\model\scene.gltf" />
+    <None Include="assets\characters\mario64_pinix_style\model\scene.bin" />
+    <None Include="assets\characters\mario64_pinix_style\model\textures\*.png" />
+    <None Include="assets\images\coin_spin.png" />
+    <None Include="assets\items\Coin\Coin.dae" />
+    <None Include="assets\items\Coin\cointex.png" />
+    <None Include="assets\items\CrystalStars\Crystal Stars\colors.png" />
+    <None Include="assets\items\CrystalStars\Crystal Stars\goldstar.mtl" />
+    <None Include="assets\items\CrystalStars\Crystal Stars\goldstar.obj" />
+    <None Include="assets\npcs\RussT\Russ T\*.png" />
+    <None Include="assets\npcs\RussT\Russ T\Russ T.dae" />
+    <None Include="assets\logos\PaperPinixLogo\Paper_Pinix_full_logo.png" />
+    <None Include="assets\logos\PaperPinixLogo\Paper_Pinix_logo_transparent.png" />
+    <None Include="assets\ui\PaperPinix_LakituCloud_menu.png" />
+    <None Include="assets\ui\PaperPinix_MenuBackground.png" />
+    <None Include="assets\ui\LakituCloud\Lakitu Cloud\Lakitu Cloud.mtl" />
+    <None Include="assets\ui\LakituCloud\Lakitu Cloud\Lakitu Cloud.obj" />
+    <None Include="assets\ui\LakituCloud\Lakitu Cloud\LakituCloud_transparent.png" />
+    <None Include="assets\ui\LakituCloud\Lakitu Cloud\Tex_0447_0.png" />
+    <None Include="assets\Mundos\FreezeezyPeak\Freezeezy Peak.dae" />
+    <None Include="assets\Mundos\FreezeezyPeak\Freezeezy Peak.mtl" />
+    <None Include="assets\Mundos\FreezeezyPeak\Freezeezy Peak.obj" />
+    <None Include="assets\Mundos\FreezeezyPeak\README.txt" />
+    <None Include="assets\Mundos\FreezeezyPeak\textures\*.png" />
+    <None Include="shaders\lava.frag" />
+    <None Include="shaders\lava.vert" />
+    <None Include="shaders\scene.frag" />
+    <None Include="shaders\scene.vert" />
+    <None Include="shaders\ui.frag" />
+    <None Include="shaders\ui.vert" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
