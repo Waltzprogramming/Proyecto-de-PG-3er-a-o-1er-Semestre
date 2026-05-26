@@ -6,3 +6,8 @@ Solorzano Zamora Walter Uriel
 Chamorro Mayen Holman Lenin
 Baldizon Orozco Mathias Eli
 Perez Garcia Leonardo Perez
+
+
+
+
+Ejecutar luego de clonar el rep: vcpkg install --triplet x64-windows --x-install-root=External\vcpkg_installed

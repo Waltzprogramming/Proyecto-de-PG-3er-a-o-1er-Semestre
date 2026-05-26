@@ -1,12 +1,26 @@
 .vs/
-<<<<<<< HEAD
-Proyecto_PG.slnx
-Proyecto_PG.vcxproj
-Proyecto_PG.vcxproj.filters
-Proyecto_PG.vcxproj.user
-=======
+build/
+External/vcpkg_installed/
+x64/
+Debug/
+Release/
 
-Laboratorio.slnx
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb
+*.opensdf
+*.sdf
 
-x64
->>>>>>> aa36351 (Primera version del proyecto)
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.tlog
+*.lastbuildstate
+*.recipe
+*.log
+*.exe
+
+.DS_Store
+Thumbs.db

@@ -1,0 +1,11 @@
+Model Information:
+* title:	prototype_mario_super_mario_64
+* source:	https://sketchfab.com/3d-models/prototype-mario-super-mario-64-257cf7c5ae204204bfa8579a0460dbfe
+* author:	chavezcalix (https://sketchfab.com/chavezcalix)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "prototype_mario_super_mario_64" (https://sketchfab.com/3d-models/prototype-mario-super-mario-64-257cf7c5ae204204bfa8579a0460dbfe) by chavezcalix (https://sketchfab.com/chavezcalix) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
