@@ -1,0 +1,13 @@
+prefix=C:/Users/wsolo/OneDrive/Documents/Proyecto_PG/External/vcpkg_installed/vcpkg/pkgs/polyclipping_x64-windows/debug
+exec_prefix=C:/Users/wsolo/OneDrive/Documents/Proyecto_PG/External/vcpkg_installed/vcpkg/pkgs/polyclipping_x64-windows/debug
+libdir=C:/Users/wsolo/OneDrive/Documents/Proyecto_PG/External/vcpkg_installed/vcpkg/pkgs/polyclipping_x64-windows/debug/lib
+sharedlibdir=C:/Users/wsolo/OneDrive/Documents/Proyecto_PG/External/vcpkg_installed/vcpkg/pkgs/polyclipping_x64-windows/debug/lib
+includedir=C:/Users/wsolo/OneDrive/Documents/Proyecto_PG/External/vcpkg_installed/vcpkg/pkgs/polyclipping_x64-windows/debug/include/polyclipping
+
+Name: polyclipping
+Description: polygon clipping library
+Version: 
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lpolyclipping
+Cflags: -I${includedir}

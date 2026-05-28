@@ -1,0 +1,9 @@
+C:/Users/wsolo/OneDrive/Documents/Proyecto_PG/External/vcpkg_installed/vcpkg/pkgs/pugixml_x64-windows/lib/pugixml.lib
+C:/Users/wsolo/OneDrive/Documents/Proyecto_PG/External/vcpkg_installed/vcpkg/pkgs/pugixml_x64-windows/bin/pugixml.dll
+C:/Users/wsolo/OneDrive/Documents/Proyecto_PG/External/vcpkg_installed/vcpkg/pkgs/pugixml_x64-windows/lib/cmake/pugixml/pugixml-targets.cmake
+C:/Users/wsolo/OneDrive/Documents/Proyecto_PG/External/vcpkg_installed/vcpkg/pkgs/pugixml_x64-windows/lib/cmake/pugixml/pugixml-targets-release.cmake
+C:/Users/wsolo/OneDrive/Documents/Proyecto_PG/External/vcpkg_installed/vcpkg/pkgs/pugixml_x64-windows/lib/cmake/pugixml/pugixml-config-version.cmake
+C:/Users/wsolo/OneDrive/Documents/Proyecto_PG/External/vcpkg_installed/vcpkg/pkgs/pugixml_x64-windows/lib/cmake/pugixml/pugixml-config.cmake
+C:/Users/wsolo/OneDrive/Documents/Proyecto_PG/External/vcpkg_installed/vcpkg/pkgs/pugixml_x64-windows/lib/pkgconfig/pugixml.pc
+C:/Users/wsolo/OneDrive/Documents/Proyecto_PG/External/vcpkg_installed/vcpkg/pkgs/pugixml_x64-windows/include/pugiconfig.hpp
+C:/Users/wsolo/OneDrive/Documents/Proyecto_PG/External/vcpkg_installed/vcpkg/pkgs/pugixml_x64-windows/include/pugixml.hpp

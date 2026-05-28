@@ -1,0 +1,5 @@
+# ninja log v7
+8	1213	8014669512200277	CMakeFiles/zip.dir/src/zip.c.obj	b1bcdd7c485cea34
+1224	1414	8014669525924229	kubazip.dll	cb0fc5fd17ac6e4a
+1224	1414	8014669525924229	kubazip.lib	cb0fc5fd17ac6e4a
+1414	1575	8014669526255082	CMakeFiles/install.util	7fdbdf3919aeb855

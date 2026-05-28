@@ -1,0 +1,7 @@
+C:/Users/wsolo/OneDrive/Documents/Proyecto_PG/External/vcpkg_installed/vcpkg/blds/kubazip/x64-windows-dbg/CMakeFiles/zip.dir
+C:/Users/wsolo/OneDrive/Documents/Proyecto_PG/External/vcpkg_installed/vcpkg/blds/kubazip/x64-windows-dbg/CMakeFiles/uninstall.dir
+C:/Users/wsolo/OneDrive/Documents/Proyecto_PG/External/vcpkg_installed/vcpkg/blds/kubazip/x64-windows-dbg/CMakeFiles/edit_cache.dir
+C:/Users/wsolo/OneDrive/Documents/Proyecto_PG/External/vcpkg_installed/vcpkg/blds/kubazip/x64-windows-dbg/CMakeFiles/rebuild_cache.dir
+C:/Users/wsolo/OneDrive/Documents/Proyecto_PG/External/vcpkg_installed/vcpkg/blds/kubazip/x64-windows-dbg/CMakeFiles/list_install_components.dir
+C:/Users/wsolo/OneDrive/Documents/Proyecto_PG/External/vcpkg_installed/vcpkg/blds/kubazip/x64-windows-dbg/CMakeFiles/install.dir
+C:/Users/wsolo/OneDrive/Documents/Proyecto_PG/External/vcpkg_installed/vcpkg/blds/kubazip/x64-windows-dbg/CMakeFiles/install/local.dir
